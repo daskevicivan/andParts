@@ -1,0 +1,6 @@
+     } else if (commandParts[0] == "branch") {
+                if (commandParts.size() > 1) {
+                    repo.branch(commandParts[1]);
+                } else {
+                    std::cout << "Invalid branch command. Usage: branch <new_branch>\n";
+                }
